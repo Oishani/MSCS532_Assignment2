@@ -1,0 +1,13 @@
+Size,InputType,Time(ms),Memory(KB)
+100,sorted,1.36,0.47
+100,reverse,1.22,0.47
+100,random,0.2,0.47
+200,sorted,3.64,0.47
+200,reverse,3.57,0.47
+200,random,0.4,0.47
+500,sorted,130.37,15.66
+500,reverse,211.53,15.66
+500,random,4.77,1.53
+1000,sorted,1796.75,47.14
+1000,reverse,3070.24,47.2
+1000,random,16.19,1.86
