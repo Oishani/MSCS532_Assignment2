@@ -5,10 +5,10 @@ This repository contains implementations of two classic divide-and-conquer sorti
 ## Contents
 
 - `MergeSort.py`: Implementation of Merge Sort (stable, O(n log n), uses extra space)
-- `QuickSort.py`: Implementation of Quick Sort (in-place, average O(n log n), worst-case O(n²))
+- `QuickSort.py`: Implementation of Quicksort (in-place, average O(n log n), worst-case O(n²))
 - `benchmark.py`: Benchmarking script that evaluates both algorithms on datasets of varying size and structure
 - `merge_sort_results.csv`: Output file containing Merge Sort benchmark results
-- `quick_sort_results.csv`: Output file containing Quick Sort benchmark results
+- `quick_sort_results.csv`: Output file containing Quicksort benchmark results
 
 ## Algorithms
 
@@ -17,7 +17,7 @@ This repository contains implementations of two classic divide-and-conquer sorti
 - Space Complexity: O(n) due to auxiliary arrays
 - Stable: Yes
 
-### Quick Sort
+### Quicksort
 - Average Time Complexity: O(n log n)
 - Worst-case Time Complexity: O(n²) on sorted or reverse-sorted data
 - Space Complexity: O(log n) on average (for recursion stack)
@@ -53,5 +53,5 @@ These contain the average execution time and memory usage for each input configu
 ## Notes
 
 - The Merge Sort implementation returns a new sorted list.
-- The Quick Sort implementation sorts the list in-place.
+- The Quicksort implementation sorts the list in-place.
 - The benchmark script uses defensive copying to ensure consistent input across algorithms.

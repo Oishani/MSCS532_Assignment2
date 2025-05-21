@@ -1,11 +1,11 @@
 """
-Implementation of the Quick Sort algorithm.
-Quick Sort is an in-place, divide-and-conquer sorting algorithm with average-case O(n log n) performance.
+Implementation of the Quicksort algorithm.
+Quicksort is an in-place, divide-and-conquer sorting algorithm with average-case O(n log n) performance.
 """
 
 def quick_sort(arr):
     """
-    Sorts the input list using the quick sort algorithm.
+    Sorts the input list using the Quicksort algorithm.
 
     Args:
         arr (list): List of comparable elements to be sorted.

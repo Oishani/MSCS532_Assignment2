@@ -1,5 +1,5 @@
 """
-This script benchmarks the performance of Merge Sort and Quick Sort implementations
+This script benchmarks the performance of Merge Sort and Quicksort implementations
 on datasets of different sizes and input characteristics (sorted, reverse sorted, and random).
 It tracks both execution time (in milliseconds) and memory usage (in kilobytes).
 
@@ -68,7 +68,7 @@ def generate_input(size, input_type):
 
 def run_benchmarks():
     """
-    Runs the benchmarks on Merge Sort and Quick Sort for various input types and sizes.
+    Runs the benchmarks on Merge Sort and Quicksort for various input types and sizes.
     Saves the results to CSV files.
     """
     sizes = [100, 200, 500, 1000]
@@ -92,7 +92,7 @@ def run_benchmarks():
         writer.writerow(['Size', 'InputType', 'Time(ms)', 'Memory(KB)'])
         writer.writerows(results_merge)
 
-    # Write Quick Sort results
+    # Write Quicksort results
     with open('quick_sort_results.csv', 'w', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(['Size', 'InputType', 'Time(ms)', 'Memory(KB)'])
