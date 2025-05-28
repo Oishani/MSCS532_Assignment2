@@ -1,4 +1,5 @@
 # MSCS-532 Assignment 2: Divide-and-Conquer Sorting Algorithms
+### Oishani Ganguly
 
 This repository contains implementations of two classic divide-and-conquer sorting algorithms in Python, along with a benchmarking framework to evaluate their performance on different types of input data.
 
